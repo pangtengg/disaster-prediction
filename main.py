@@ -33,7 +33,9 @@ class DisasterInput(BaseModel):
     severity_index: float
     casualties: int
     economic_loss_usd: float
-    aid_amount_usd: float
+    aid_amount_usd: float        
+    response_efficiency_score: float 
+    recovery_days: int         
     latitude: float
     longitude: float
     month: int    # 1–12

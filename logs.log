@@ -933,3 +933,151 @@ Increase the number of iterations (max_iter) or scale the data as shown in:
                                                               use_cat_names=True))),
                 ('trained_model', GradientBoostingRegressor(random_state=42))])
 2026-02-25 21:09:42,713:INFO:save_model() successfully completed......................................
+2026-02-26 01:08:52,802:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-02-26 01:08:52,803:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-02-26 01:08:52,803:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-02-26 01:08:52,803:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-02-26 01:08:53,081:INFO:Initializing load_model()
+2026-02-26 01:08:53,082:INFO:load_model(model_name=disaster_response_model, platform=None, authentication=None, verbose=True)
+2026-02-26 01:08:53,117:WARNING:C:\Users\pangt\anaconda\envs\cnn\lib\site-packages\_distutils_hack\__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-02-26 01:08:58,750:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-02-26 01:08:58,750:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-02-26 01:08:58,750:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-02-26 01:08:58,750:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-02-26 01:08:58,986:INFO:Initializing load_model()
+2026-02-26 01:08:58,986:INFO:load_model(model_name=disaster_response_model, platform=None, authentication=None, verbose=True)
+2026-02-26 01:08:58,996:WARNING:C:\Users\pangt\anaconda\envs\cnn\lib\site-packages\_distutils_hack\__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-02-26 01:09:11,037:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-02-26 01:09:11,037:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-02-26 01:09:11,037:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-02-26 01:09:11,037:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-02-26 01:09:11,267:INFO:Initializing load_model()
+2026-02-26 01:09:11,267:INFO:load_model(model_name=disaster_response_model, platform=None, authentication=None, verbose=True)
+2026-02-26 01:09:11,279:WARNING:C:\Users\pangt\anaconda\envs\cnn\lib\site-packages\_distutils_hack\__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-02-26 01:19:06,911:INFO:Initializing predict_model()
+2026-02-26 01:19:06,911:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000022ACFB80790>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['severity_index', 'casualties',
+                                             'economic_loss_usd',
+                                             'aid_amount_usd',
+                                             'response_efficiency_score',
+                                             'recovery_days', 'latitude',
+                                             'longitude', 'month', 'year'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['country', 'disaster_type'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['country', 'disaster_type'],
+                                    transformer=OneHotEncoder(cols=['country',
+                                                                    'disaster_type'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model', GradientBoostingRegressor(random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000022ACFAFF640>)
+2026-02-26 01:19:06,911:INFO:Checking exceptions
+2026-02-26 01:19:06,911:INFO:Preloading libraries
+2026-02-26 01:19:06,917:INFO:Set up data.
+2026-02-26 01:19:06,933:INFO:Set up index.
+2026-02-26 01:21:12,818:INFO:Initializing predict_model()
+2026-02-26 01:21:12,818:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000022ACFB308B0>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['severity_index', 'casualties',
+                                             'economic_loss_usd',
+                                             'aid_amount_usd',
+                                             'response_efficiency_score',
+                                             'recovery_days', 'latitude',
+                                             'longitude', 'month', 'year'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['country', 'disaster_type'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['country', 'disaster_type'],
+                                    transformer=OneHotEncoder(cols=['country',
+                                                                    'disaster_type'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model', GradientBoostingRegressor(random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000022ACFB95990>)
+2026-02-26 01:21:12,819:INFO:Checking exceptions
+2026-02-26 01:21:12,819:INFO:Preloading libraries
+2026-02-26 01:21:12,820:INFO:Set up data.
+2026-02-26 01:21:12,830:INFO:Set up index.
+2026-02-26 01:37:37,271:INFO:Initializing predict_model()
+2026-02-26 01:37:37,272:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000022ACFBE0130>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['severity_index', 'casualties',
+                                             'economic_loss_usd',
+                                             'aid_amount_usd',
+                                             'response_efficiency_score',
+                                             'recovery_days', 'latitude',
+                                             'longitude', 'month', 'year'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['country', 'disaster_type'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['country', 'disaster_type'],
+                                    transformer=OneHotEncoder(cols=['country',
+                                                                    'disaster_type'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model', GradientBoostingRegressor(random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x0000022ACFB95CF0>)
+2026-02-26 01:37:37,272:INFO:Checking exceptions
+2026-02-26 01:37:37,272:INFO:Preloading libraries
+2026-02-26 01:37:37,273:INFO:Set up data.
+2026-02-26 01:37:37,282:INFO:Set up index.
+2026-02-26 01:38:41,178:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-02-26 01:38:41,178:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-02-26 01:38:41,178:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-02-26 01:38:41,179:WARNING:
+'cuml' is a soft dependency and not included in the pycaret installation. Please run: `pip install cuml` to install.
+2026-02-26 01:38:41,422:INFO:Initializing load_model()
+2026-02-26 01:38:41,422:INFO:load_model(model_name=disaster_response_model, platform=None, authentication=None, verbose=True)
+2026-02-26 01:38:41,433:WARNING:C:\Users\pangt\anaconda\envs\cnn\lib\site-packages\_distutils_hack\__init__.py:30: UserWarning: Setuptools is replacing distutils. Support for replacing an already imported distutils is deprecated. In the future, this condition will fail. Register concerns at https://github.com/pypa/setuptools/issues/new?template=distutils-deprecation.yml
+  warnings.warn(
+
+2026-02-26 01:39:26,645:INFO:Initializing predict_model()
+2026-02-26 01:39:26,645:INFO:predict_model(self=<pycaret.regression.oop.RegressionExperiment object at 0x0000019285566140>, estimator=Pipeline(memory=Memory(location=None),
+         steps=[('numerical_imputer',
+                 TransformerWrapper(include=['severity_index', 'casualties',
+                                             'economic_loss_usd',
+                                             'aid_amount_usd',
+                                             'response_efficiency_score',
+                                             'recovery_days', 'latitude',
+                                             'longitude', 'month', 'year'],
+                                    transformer=SimpleImputer())),
+                ('categorical_imputer',
+                 TransformerWrapper(include=['country', 'disaster_type'],
+                                    transformer=SimpleImputer(strategy='most_frequent'))),
+                ('onehot_encoding',
+                 TransformerWrapper(include=['country', 'disaster_type'],
+                                    transformer=OneHotEncoder(cols=['country',
+                                                                    'disaster_type'],
+                                                              handle_missing='return_nan',
+                                                              use_cat_names=True))),
+                ('trained_model', GradientBoostingRegressor(random_state=42))]), probability_threshold=None, encoded_labels=False, raw_score=False, round=4, verbose=True, ml_usecase=None, preprocess=True, encode_labels=<function _SupervisedExperiment.predict_model.<locals>.encode_labels at 0x00000192854DF760>)
+2026-02-26 01:39:26,645:INFO:Checking exceptions
+2026-02-26 01:39:26,645:INFO:Preloading libraries
+2026-02-26 01:39:26,646:INFO:Set up data.
+2026-02-26 01:39:26,650:INFO:Set up index.
